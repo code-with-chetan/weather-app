@@ -5,18 +5,17 @@ It allows users to search for weather information by city name and displays accu
 
 ---
 
+## 🚀 Live Demo
+[Click here to view the app](https://code-with-chetan.github.io/weather-app/)  
+
+---
+
 ## ✨ Features
 - 🔍 Search for weather by city name
 - 📅 Displays **date** and **time**
 - 🌡 Shows **temperature**, **humidity**, and **weather conditions**
 - 📱 Fully responsive design
 
----
-
-
-## 🚀 Live Demo
-[Click here to view the app](https://your-live-demo-link.com)  
-*(You can use GitHub Pages or Netlify for hosting)*
 
 ---
 
