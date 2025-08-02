@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+    <section class="container">
+           <!-- header Search bar of Weather App -->
+        <div class="Weather_heading">
+            <form class="search_bar">
+                <i class="fa-solid fa-magnifying-glass" class="search_icon"></i>
+                <input type="text" class="search_input" placeholder="search your city...">
+
+            </form>
+
+        </div>
+
+        <!-- main body of the Weather App -->
+         <div class="main_body">
+            <h1 class="main_heading"></h1>
+            <p class="DataTime_para"></p>
+            <div class="weather_forecasting">
+                <p class="weather_condition"></p>
+                <div class="climate_logo"></div>
+            </div>
+            <div class="temperature">
+                <p class="current_temp"></p>
+                <div class="temperature_lowh">
+                    <p class="min_temp"></p>
+                    <p class="max_temp"></p>
+                </div>
+            </div>
+         </div>
+
+         <!-- extra data section of Weather App -->
+          <div class="extra_data">
+            <div class="weather_card">
+                <i class="fa-solid fa-droplet"></i>
+                <div class="card_data">
+                    <p>Feels Like</p>
+                    <p class="weather_feel">20&#176</p>
+                </div>
+            </div>
+
+            <div class="weather_card">
+                <i class="fa-solid fa-cloud-rain"></i>
+                <div class="card_data">
+                    <p>Humidity</p>
+                    <p class="weather_Humidity">20&#176</p>
+                </div>
+            </div>
+
+            <div class="weather_card">
+                <i class="fa-solid fa-wind"></i>
+                <div class="card_data">
+                    <p>Wind</p>
+                    <p class="weather_wind">20&#176</p>
+                </div>
+            </div>
+
+            <div class="weather_card">
+                <i class="fa-solid fa-gauge"></i>
+                <div class="card_data">
+                    <p>Pressure</p>
+                    <p class="weather_Pressure">20&#176</p>
+                </div>
+            </div>
+          </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
