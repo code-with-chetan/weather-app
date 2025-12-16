@@ -53,7 +53,7 @@ const getDataOfDate = (dt, offset) => {
 
 
 const getDataFromApi=async()=>{
-    const apiUrl=`https://api.openweathermap.org/data/2.5/weather?q=${nameOfCit}&appid=Your api key`;
+    const apiUrl=`https://api.openweathermap.org/data/2.5/weather?q=${nameOfCit}&appid=9dd30291030063350573f7558e294b73`;
     try {
         const response=await fetch(apiUrl);
         const data=await response.json();
